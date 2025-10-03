@@ -1,5 +1,4 @@
 # TCS_2025_3-4Bimesters
-# TCS_2025_3-4Bimesters
 
 This repository contains all the research, assets and assembly plans for our secondary school final project on Portuguese influences in the formation of Brazil during the colonial period. You’ll find:
 
