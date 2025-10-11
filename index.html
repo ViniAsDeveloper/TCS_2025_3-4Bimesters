@@ -1,59 +1,93 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Índice — Pesquisa</title>
-  <style>
-    :root{--bg:#0f1720;--card:#0b1220;--muted:#94a3b8;--accent:#ffdd57;--glass: rgba(255,255,255,0.03)}
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;color:#e6eef8;background:linear-gradient(180deg,#071023 0%, #0b1630 100%);}
-    .wrap{max-width:1100px;margin:36px auto;padding:28px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 8px 30px rgba(3,7,18,0.6);min-height: fit-content;}
-    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
-    .logo{width:64px;height:64px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;background:linear-gradient(135deg,#1f2937,#0ea5a4);color:#041025;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
-    h1{font-size:20px;margin:0}
-    p.lead{margin:2px 0 0;color:var(--muted);font-size:13px}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Índice / Home</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom right, rgba(24, 26, 27, 0.9), rgb(0, 75, 75));
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 100vh;
+            font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial
+        }
+    
+        .content{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            height: fit-content;
+        }
 
-    .controls{display:flex;gap:12px;align-items:center;margin:18px 0}
-    .search{flex:1;display:flex;align-items:center;background:var(--glass);padding:8px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
-    .search input{border:0;background:transparent;color:inherit;padding:8px;font-size:15px;outline:none;width:100%}
-    .stats{color:var(--muted);font-size:13px}
+        .search-bar{
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        }
 
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;margin-top:12px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);min-height:96px;min-width:250px;display:flex;gap:12px;align-items:center}
-    .thumb{width:68px;height:68px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:28px;background:rgba(255,255,255,0.02);flex-shrink:0}
-    .meta{flex:1}
-    .meta h3{margin:0;font-size:16px}
-    .meta p{margin:6px 0 0;color:var(--muted);font-size:13px}
-    .actions{display:flex;gap:8px;align-items:center}
-    a.button{padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600;background:linear-gradient(90deg,#1f7aef,#0ea5a4);color:white;box-shadow:0 6px 18px rgba(14,165,164,0.12)}
-    a.muted{padding:6px 8px;border-radius:8px;text-decoration:none;background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:13px}
+        .search-box{
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    footer{margin-top:20px;color:var(--muted);font-size:13px}
+        .search-box input[type="text"] {
+            width: 96%;
+            padding: 10px 15px;
+            border: 2px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+            font-size: 16px;
+        }
 
-    @media (max-width:520px){.controls{flex-direction:column;align-items:stretch}.logo{width:54px;height:54px}}
-  </style>
+        .search-box input[type="text"]:focus {
+            border-color: #007BFF;
+        }
+
+        .grid{
+            margin-top: 5%;
+            font-size: 100%;
+            font-size: 90%;
+        }
+
+        .card{
+            padding: 15px;
+            margin-top: 2%;
+            margin-left: 5%;
+            display: inline-block;
+            width: 40%;
+            background-color: rgba(81, 188, 241, 0.2);
+            border-radius: 20px;
+        }
+
+        .head{
+            margin-top: 5%;
+            margin-bottom: -2%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 110%;
+            color: #F9F9F9;
+            width: fit-content;
+        }
+
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">P</div>
-      <div>
-        <h1>Índice do projeto — Pasta <code>/Pesquisa</code></h1>
-        <p class="lead">Lista bonita com links para todas as páginas HTML do projeto. Clique para abrir em nova aba.</p>
-      </div>
-    </header>
 
-    <div class="controls">
-      <div class="search" title="Pesquisar páginas">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="opacity:0.9;margin-right:8px"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2"/></svg>
-        <input id="q" placeholder="Pesquisar por título ou caminho (ex: Cronologia, Mapas)" autofocus />
-      </div>
-      <div class="stats"><span id="count">0</span> páginas</div>
-    </div>
+    <div class="head">
+        Essa é uma lista para todas as páginas HTML do projeto. Clique em "Abrir" para abrir em uma nova aba.</div>
 
-    <main>
-      <div class="grid" id="grid">
+    <div class="content">
+        <div class="search-bar">
+            <div class="search-box">
+                <input type="text" placeholder="&#128269; Search..." id="text-box">
+            </div>
+        </div>
+
+        <div class="grid" id="grid">
 
         <!-- Cards generated from the project tree -->
 
@@ -134,7 +168,7 @@
           </div>
         </article>
 
-        <article class="card" data-title="OrgSocial" data-path="Pesquisa/OrgSocial/OrgSocial.html">
+        <article class="card" data-title="Organizacao Social" data-path="Pesquisa/OrgSocial/OrgSocial.html">
           <div class="thumb">🏛️</div>
           <div class="meta">
             <h3>Organização Social</h3>
@@ -157,44 +191,35 @@
         </article>
 
       </div>
-    </main>
 
-    <footer>
-      Arquivo do projeto: <code>/Pesquisa</code> - criado automaticamente.
-    </footer>
-  </div>
-
-  <script>
-    const cards = Array.from(document.querySelectorAll('.card'));
-    const q = document.getElementById('q');
-    const count = document.getElementById('count');
-
-    function update(filter=''){
-      const f = filter.trim().toLowerCase();
-      let visible = 0;
-      for(const c of cards){
-        const title = c.dataset.title.toLowerCase();
-        const path = c.dataset.path.toLowerCase();
-        if(!f || title.includes(f) || path.includes(f)){
-          c.style.display = 'flex'; visible++;
-        } else {
-          c.style.display = 'none';
-        }
-      }
-      count.textContent = visible;
+    </div>
+</body>
+<script>
+    if(/mobile/i.test(navigator.userAgent.toLocaleLowerCase())){
+        document.getElementsByClassName("search-bar")[0].style.width = `80%`;
+        document.getElementById("text-box").style.width = `70%`;
+        console.log("avude");
     }
 
-    q.addEventListener('input', ()=> update(q.value));
-    // initialize
-    update('');
+    const cards = document.getElementsByClassName("card");
+    const search_box = document.getElementById("text-box");
 
-    // keyboard hint: press Enter on a focused card to open first link
-    document.addEventListener('keydown', (e)=>{
-      if(e.key === 'Enter' && document.activeElement === q){
-        const first = cards.find(c => c.style.display !== 'none');
-        if(first) window.open(first.querySelector('a.button').href,'_blank');
-      }
-    });
-  </script>
-</body>
+    function update(filter=''){
+        const f_filter = filter.trim().toLowerCase();
+
+        for(const card of cards){
+            const title = card.dataset.title.toLowerCase();
+            const path = card.dataset.path.toLowerCase();
+
+            if(!f_filter || title.includes(f_filter) || path.includes(f_filter)){
+                card.style.display = 'inline-block';
+            }else{
+                card.style.display = 'none';
+            }
+        }
+    }
+
+    search_box.addEventListener('input', () => update(search_box.value));
+
+</script>
 </html>

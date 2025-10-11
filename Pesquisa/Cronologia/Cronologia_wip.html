@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronologia</title>
+    <style>
+        body{
+            min-height: 100vh;
+
+            --primary-color: #F9F9F9;
+            --secondary-color: #181B19;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 16px
+        }
+
+        body:has(#toggle-light-mode:checked){
+            --primary-color: #181B19;
+            --secondary-color: #F9F9F9;
+        }
+
+        .template-section{
+            display: flex;
+            margin: 0 auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .section-title{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-div">
+        <label>
+            <input type="checkbox" id="toggle-light-mode">
+            Toggle Light Mode
+        </label>
+    </div>
+
+    <div class="template-section">
+        <p class="section-title">BASE TEÓRICA - PESQUISA</p>
+    </div>
+</body>
+</html>
