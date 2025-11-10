@@ -46,11 +46,8 @@ Rodapé: 25% da altura com trechos de documentos históricos e referências.
 * **Texto corrido:** Space Mono 12-14
 * **Texto dos “quadrinhos”:** Times New Roman 10-12
 
-## 4. Paleta de cores:
-Fundo principal: cinza-escuro (#181B1A)
-Textos: off-white (#F9F9F9)
 
-## 5. Conteúdo
+## 4. Conteúdo
     ### Topo:
         - Título: Dança Colonial
         - Subtítulo: Formas, ritualidades e ritmos portugueses, indígenas e africanos e as formas híbridas que atravessaram o Brasil Colonial
@@ -82,5 +79,3 @@ Textos: off-white (#F9F9F9)
 2) Sincretismo e apropriação: Ao longo do período colonial, movimentos, ritmos e gestos indígenas, africanos e portugueses se misturaram, dando origem a formas híbridas. Missionários e elites europeias frequentemente reinterpretaram ou instrumentalizaram danças locais (por exemplo, em autos catequéticos), enquanto comunidades negras e indígenas preservavam e reelaboravam repertórios, transformando-os em práticas comuns às festas católicas. O resultado foi um repertório festivo marcado por sobreposições simbólicas e adaptações mútuas.
 
 3) Vida cotidiana e resistência: Dançar era parte da rotina festiva - em batizados, colheitas, casamentos e festas de padroeiro - e também era um gesto de resistência cultural nas senzalas. Nesses contextos, a dança servia para manter laços comunitários, transmitir memórias e tradições e criar espaços de autonomia simbólica. Nos quilombos, as práticas coreográficas consolidavam a identidade coletiva e funcionavam como instrumento de solidariedade e de autoafirmação.
-
-### Rodapé:

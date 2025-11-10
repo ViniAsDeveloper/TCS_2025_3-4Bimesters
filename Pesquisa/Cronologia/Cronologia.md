@@ -50,7 +50,7 @@ Seguiu-se o período de Regência (1831-1840), caracterizado por instabilidade p
 
 # ADAPTAÇÃO PARA O CONTEXTO DO TRABALHO
 
-Seŕa feito um painel expositivo, assim como para alguns outros assuntos. Esse painel, no entanto, seŕa bem maior do que os demais. Ele poderá ter até 4m de largura por 1,5m de altura, dependendo de como a montagem física for feita. O estilo será de "Parede Maluca" ou "Quadro de Evidências", com elementos conectados por barbantes de cores diversas que ligam tachinhas sobre o quadro. O destaque do painel será a linha do tempo descrita pela pesquisa teórica, com os principais fatos ordenados cronologicamente. Cada fato com seu nome, texto e imagem(ns) forma um nó do quadro. Os nós serão ligados entre si por barbantes de cores distintas, sendo cada cor um período histórico, enquanto as ligações feitas dentro dos próprios nós, se presentes, serão efitas usando setas de papel colorido. Cada nó terá a descrição completa do fato, semelhante à apresentada na pesquisa teórica, e elementos de transição ficarão posicionados entre os nós. Assim, cria-se a sensação de continuidade entre as seções, com intento de simular uma narrativa suave. Na parte inferior haverá uma legenda de cores.
+Será feito um painel expositivo, assim como para alguns outros assuntos. Esse painel, no entanto, será bem maior do que os demais. Ele poderá ter até 4m de largura por 1,5m de altura, dependendo de como a montagem física for feita. O estilo será de "Parede Maluca" ou "Quadro de Evidências", com elementos conectados por barbantes vermelhos que ligam tachinhas sobre o quadro. O destaque do painel será a linha do tempo descrita pela pesquisa teórica, com os principais fatos ordenados cronologicamente. Cada fato com seu nome, texto e imagem(ns) forma um nó do quadro. Os nós serão ligados entre si por barbantes, enquanto as ligações feitas dentro dos próprios nós, se presentes, serão efitas usando setas de papel colorido. Cada nó terá a descrição completa do fato, semelhante à apresentada na pesquisa teórica, e elementos de transição ficarão posicionados entre os nós. Assim, cria-se a sensação de continuidade entre as seções, com intento de simular uma narrativa suave. Na parte inferior haverá uma legenda de cores.
 
 
 # ESTRUTURA DO PAINEL E SEU CONTEÚDO
@@ -58,24 +58,12 @@ Seŕa feito um painel expositivo, assim como para alguns outros assuntos. Esse p
 ## 1. Estrutura geral
 
 **Tamanho: 4,00 m (larg) × 1,50 m (alt)**
-**Estilo: “Parede Maluca / Quadro de Evidências” - cartões / placas (nós) fixados com tachinhas, ligados por barbantes coloridos; setas de papel indicam conexões internas.**
+**Estilo: “Parede Maluca / Quadro de Evidências” - os nós são conjuntos [texto + imagem] fixados com tachinhas, ligados por barbantes vermelhos; setas de papel indicam conexões internas.**
 **Leitura principal: linha do tempo horizontal (da esquerda para a direita). Os nós são “estações” da linha; entre os nós, elementos de transição (barbante e notas curtas) criam continuidade.**
 
-## 2. Chave de cores (fios) - cada cor = um grande período
+## 2. Chave de cores (fios) - cada cor = um grande período (deprecated -> provou-se desnecessário)
 
-Azul-escuro -> Reconquista e formação (pré-1400)
-
-Verde -> Expansão atlântica e Descobrimentos (séculos XV-XVI)
-
-Terracota -> Período inicial colonial / capitanias & economia extractiva (séculos XVI)
-
-Marrom -> Período açucareiro consolidado e conflitos atlânticos (séculos XVI-XVII)
-
-Dourado -> Mineração e rearranjos do século XVIII
-
-Roxo -> Crises europeias, União Ibérica e restauração (séculos XVI-XVII)
-
-Vermelho -> Guerras Napoleônicas e processo de Independência (final Séc. XVIII - 1822)
+## 2. Título: História da colonização portuguesa no Brasil
 
 ## 3. Nós:
 
